@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Princess Hlazo — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+  <div class="noise"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">PH<span class="dot">.</span></div>
+    <button class="nav__toggle" id="navToggle" aria-label="menu">
+      <span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#hero" class="nav__link">Home</a></li>
+      <li><a href="#about" class="nav__link">About</a></li>
+      <li><a href="#work" class="nav__link">Projects</a></li>
+      <li><a href="#skills" class="nav__link">Stack</a></li>
+      <li><a href="#contact" class="nav__link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg-text">PRINCESS</div>
+    <div class="hero__content">
+      <div class="hero__tag"><span class="tag-dot"></span> Open to new roles</div>
+      <h1 class="hero__name">
+        <span class="line">Princess</span>
+        <span class="line accent">Hlazo</span>
+      </h1>
+      <p class="hero__role">Software Engineer <span class="sep">×</span> Full-Stack <span class="sep">×</span> AI Builder</p>
+      <p class="hero__sub">Software Engineer and Graduate Software Tester (Automation) with a background in software development, QA, and freelance web development. WeThinkCode_ Software Engineering graduate, based in Johannesburg, South Africa.</p>
+      <div class="hero__cta">
+        <a href="#work" class="btn btn--primary">See My Projects</a>
+        <a href="#contact" class="btn btn--ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero__img-wrap">
+      <div class="hero__img-frame">
+        <img src="img/myprincess.png" alt="Princess Hlazo" class="hero__img" onerror="this.style.display='none'; this.parentElement.classList.add('no-img')" />
+        <!-- <div class="hero__img-placeholder"><span>P</span></div> -->
+      </div>
+    
+    </div>
+    <div class="hero__scroll">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee">
+      
+<span>HTML5 &nbsp;·&nbsp; CSS3 &nbsp;·&nbsp; JavaScript &nbsp;·&nbsp; Python &nbsp;·&nbsp; Java &nbsp;·&nbsp; SQL &nbsp;·&nbsp; Flask &nbsp;·&nbsp; WordPress &nbsp;·&nbsp; WooCommerce &nbsp;·&nbsp; Elementor &nbsp;·&nbsp; Playwright &nbsp;·&nbsp; Selenium &nbsp;·&nbsp; MySQL &nbsp;·&nbsp; Git &nbsp;·&nbsp; Docker &nbsp;·&nbsp; Power Apps &nbsp;·&nbsp; Power Automate &nbsp;·&nbsp;</span>
+<span>HTML5 &nbsp;·&nbsp; CSS3 &nbsp;·&nbsp; JavaScript &nbsp;·&nbsp; Python &nbsp;·&nbsp; Java &nbsp;·&nbsp; SQL &nbsp;·&nbsp; Flask &nbsp;·&nbsp; WordPress &nbsp;·&nbsp; WooCommerce &nbsp;·&nbsp; Elementor &nbsp;·&nbsp; Playwright &nbsp;·&nbsp; Selenium &nbsp;·&nbsp; MySQL &nbsp;·&nbsp; Git &nbsp;·&nbsp; Docker &nbsp;·&nbsp; Power Apps &nbsp;·&nbsp; Power Automate &nbsp;·&nbsp;</span>
+
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-label">01 — About</div>
+    <div class="about__grid">
+      <div class="about__left">
+        <h2 class="section-title">I ship code<br>that <em>works</em>.</h2>
+        <div class="about__stats">
+          
+        </div>
+      </div>
+      <div class="about__right">
+        <p>I'm a software developer and Graduate Software Tester (Automation) based in <strong>Johannesburg, South Africa</strong> I build responsive websites and practical digital solutions for businesses, combining software development skills with an eye for user experience and quality.
+
+From developing business websites and e-commerce stores to testing enterprise applications, I enjoy turning ideas into functional, user-friendly solutions. My experience spans <strong>Python, Java, JavaScript, SQL, WordPress, and web technologies,</strong> alongside exposure to automated and manual testing.
+</p>
+       
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="section-label">03 — Stack</div>
+    <h2 class="section-title">What I work with</h2>
+    <div class="skills__grid">
+
+      <div class="skill-card" data-delay="0">
+        <div class="skill-card__icon">💻</div>
+        <h3>Programming & Backend</h3>
+        <ul>
+          <li>Python · Java · JavaScript ·  SQL</li>
+          <li>Flask · Object-Oriented Programming</li>
+          <li>REST APIs · Client-Server Architecture</li>
+        </ul>
+      </div>
+
+      <div class="skill-card" data-delay="100">
+        <div class="skill-card__icon">🎨</div>
+        <h3>Frontend & Web Development</h3>
+        <ul>
+          <li>HTML · CSS · JavaScript </li>
+          <li>Responsive Web Design</li>
+          <li>WordPress · Elementor ·  WooCommerce</li>
+          <li>UI/UX Design · Figma</li>
+        </ul>
+      </div>
+
+      <div class="skill-card" data-delay="200">
+        <div class="skill-card__icon">🧪</div>
+        <h3>Software Testings</h3>
+        <ul>
+          <li>Playwright ·  Selenium</li>
+          <li>Manual & Functional Testing</li>
+          <li>Bug Reporting</li>
+        </ul>
+      </div>
+
+      <div class="skill-card" data-delay="300">
+        <div class="skill-card__icon">🗄️</div>
+        <h3>Database</h3>
+        <ul>
+          <li>MySQL · SQL</li>
+          <li>Microsoft Dataverse</li>
+          <li>Database Design & Management</li>
+        </ul>
+      </div>
+
+      <div class="skill-card" data-delay="400">
+        <div class="skill-card__icon">⚙️</div>
+        <h3>Tools & Development</h3>
+        <ul>
+          <li>Git · GitHub</li>
+          <li>Docker</li>
+          <li>Linux · JSON</li>
+          <li>VS Code · Chrome DevTools</li>
+        </ul>
+      </div>
+
+      <div class="skill-card" data-delay="500">
+        <div class="skill-card__icon">🚀</div>
+        <h3>Platforms & Practices</h3>
+        <ul>
+          <li>WordPress · WooCommerce</li>
+          <li>Power Apps · Power Automate</li>
+          <li>Website Deployment · Maintenance & Optimization</li>
+        </ul>
+      </div>
+
+    </div>
+
+    
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="work" id="work">
+    <div class="section-label">04 — Projects</div>
+    <h2 class="section-title">Projects I've Built</h2>
+    <div class="work__grid">
+
+      <div class="work-card work-card--featured">
+        <div class="work-card__num">01</div>
+        <div class="work-card__content">
+          <span class="work-card__tag">HTML · CSS · JavaScript</span>
+          <h3>Sport Investment Website</h3>
+                  <p>Developed a responsive multi-page corporate website for MRM Sport Capital using 
+                  HTML, CSS and JavaScript, implementing a modern sports-investment design with 
+                  interactive navigation and video backgrounds.  
+                  • Collaborated with the client to structure and integrate approved company content, 
+                  partnership information and branding while ensuring cross-device responsiveness 
+        and professional user experience.</p>
+          <a href="https://sportinvestement.netlify.app/" target="_blank" class="work-card__link">View Website →</a>
+        </div>
+        <div class="work-card__tag-badge">Updated 2 weeks ago</div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-card__num">02</div>
+        <div class="work-card__content">
+          <span class="work-card__tag">WordPress · WooCommerce · Elementor</span>
+          <h3>Secret Softwear – E-commerce Website</h3>
+          <p>Designed and developed an e-commerce website for Secret Softwear, a South African tech-inspired clothing brand. Built a responsive online store where customers can explore products, browse collections, and shop clothing, with a focus on brand identity, user experience, and product presentation.</p>
+          <a href="https://secretsoftwear.site/" target="_blank" class="work-card__link">View Website →</a>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-card__num">03</div>
+        <div class="work-card__content">
+          <span class="work-card__tag">HTML · CSS · JavaScript</span>
+          <h3>TS Mjandana Trading</h3>
+          <p>Designed and developed a responsive business website showcasing the company’s construction and civil engineering services, improving its online presence and customer reach.</p>
+          <a href="https://tsmjandana.netlify.app/" target="_blank" class="work-card__link">View Website →</a>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  
+
+   
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="education" id="education">
+    <div class="section-label">05 — Education</div>
+    <h2 class="section-title">Where I learned</h2>
+    <div class="edu__grid">
+      <div class="edu-card">
+        <div class="edu-card__year">2023 – 2024</div>
+        <h3>WeThinkCode_</h3>
+        <p> Higher Certificate: Software Engineering</p>
+      </div>
+      <div class="edu-card">
+        <div class="edu-card__year">Dec 2022</div>
+        <h3>Tshwane University of Technology</h3>
+        <p>Diploma: Financial Information Systems</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-label">06 — Contact</div>
+    <div class="contact__inner">
+      <h2 class="contact__title">Let's build<br>something <em>great</em>.</h2>
+      <p class="contact__sub">Available for freelance web development projects, building responsive websites and custom digital solutions for businesses. Based in Johannesburg, South Africa — available to work remotely</p>
+      <a href="mailto:Princesskanye001@gmail.com" class="contact__email">Princesskanye001@gmail.com</a>
+      <div class="contact__details">
+        <span>📞 +27 82 289 0047</span>
+        <span>📍 Johannesburg, South Africa</span>
+      </div>
+      <div class="contact__socials">
+        <a href="https://wa.me/27822890047" target="_blank" class="social-btn">WhatsApp</a>
+        <a href="tel:+27822890047" class="social-btn">Call</a>
+      </div>
+    </div>
+    <div class="contact__bg-text">CONTACT</div>
+  </section>
+
+  <footer class="footer">
+    <span>© 2026 Princess Hlazo</span>
+    <span>Johannesburg, South Africa 🇿🇦</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
